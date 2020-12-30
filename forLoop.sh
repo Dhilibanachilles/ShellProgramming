@@ -6,6 +6,7 @@ do
    if [ -d $foldername ]
    then
       rm -R $foldername
+      echo $foldername is removed successfully
    fi
 
    mkdir $foldername;
