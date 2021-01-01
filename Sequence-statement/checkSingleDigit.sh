@@ -1,3 +1,4 @@
 #!/bin/bash
 
-randomSingleDigit
+randomSingleDigit=$(( RANDOM%10 ))
+echo $randomSingleDigit
