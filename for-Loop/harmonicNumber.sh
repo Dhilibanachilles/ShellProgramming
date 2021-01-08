@@ -1,7 +1,9 @@
 #!/bin/bash -x
 
+read n
 
-for (( num=n/2; n=5; n++ ))
+for (( num=1; num<=$n; num++ ))
 do
-	echo $num
+	res=$(( $(( 1 / $num )) + $(( $res )) ))
 done
+	echo $res
