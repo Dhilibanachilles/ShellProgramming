@@ -1,9 +1,0 @@
-Java
-.Net
-NodeJS
-Angular
-Machine Learning
-Artificial Intelligence
-Big data
-ReactJSX
-

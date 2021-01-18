@@ -1,9 +1,11 @@
 #!/bin/bash -x
-echo "Enter number"
-read  value
 
-function palindrome(){
-local num=$value
+echo "Enter number"
+read  val1
+read val2
+
+palindrome(){
+local num=$1
 rev=0
 temp=$num
 while [[ $num -ne 0 ]]
@@ -22,4 +24,5 @@ echo "Not a Palindrome"
 fi
 }
 
-palindrome 
+palindrome val1
+palindrome val2
